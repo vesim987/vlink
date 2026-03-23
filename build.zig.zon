@@ -1,0 +1,16 @@
+.{
+    .name = .vlink,
+    .version = "0.14.3",
+    .dependencies = .{
+        .upstream = .{
+            .url = "http://phoenix.owl.de/tags/vlink0_14c.tar.gz",
+            .hash = "N-V-__8AANuMDABcdhxsmJcN2tIPfopbZj8QwveQRjzK25Vn",
+        },
+    },
+    .minimum_zig_version = "0.16.0-dev.2848+b4ffb402c",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+    .fingerprint = 0xa758a49f367d474e,
+}
